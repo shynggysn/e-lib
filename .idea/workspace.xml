@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="e-lib:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="804f12de-1c81-4d24-b59f-03de7e1341eb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/epam/MyServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/epam/constants/ElibView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/epam/constants/SQL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/epam/dao/BookDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/epam/dao/CategoryDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/epam/dao/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/epam/dao/UserOpinionDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/epam/entities/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/epam/entities/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/epam/entities/BookOnSite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/epam/entities/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/epam/entities/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/epam/entities/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/epam/entities/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/epam/entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/epam/entities/UserOpinion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/epam/exceptions/DatabaseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/epam/exceptions/DuplicateRecordException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/epam/util/DataUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/epam/util/DataValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/epam/util/JDBCDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/epam/util/PropertyReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/epam/util/SaltedMD5Hashing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/epam/util/ServletUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/MessageBundle_en_US.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/MessageBundle_ru_RU.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/fontawesome-all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/breakpoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/browser.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/sass/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/elibLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/pic01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/pic02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/pic03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/pic04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/pic05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/pic06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/pic07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/pic08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/pic09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/pic10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/pic11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/AboutView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/BookView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/CatalogView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/CategoryView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/CreateBookView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/ErrorView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/Header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/LoginView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/MyDownloadsView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/MyWishListView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/ProfileView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/RegistrationView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/SearchView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/Sidebar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/SuggestionsView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/edu/epam/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/edu/epam/entities/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/edu/epam/entities/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/edu/epam/entities/BookOnSite.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/edu/epam/entities/Category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/edu/epam/entities/Comment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/edu/epam/entities/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/edu/epam/entities/Request.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/edu/epam/entities/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/edu/epam/entities/UserOpinion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/edu/epam/util/DataUtility.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/edu/epam/util/DataValidator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/edu/epam/util/JDBCDataSource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/e-lib-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/e-lib-1.0-SNAPSHOT/WEB-INF/classes/edu/epam/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/e-lib-1.0-SNAPSHOT/WEB-INF/classes/edu/epam/elib/DbConnection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/e-lib-1.0-SNAPSHOT/WEB-INF/classes/edu/epam/entities/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/e-lib-1.0-SNAPSHOT/WEB-INF/classes/edu/epam/entities/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/e-lib-1.0-SNAPSHOT/WEB-INF/classes/edu/epam/entities/BookOnSite.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/e-lib-1.0-SNAPSHOT/WEB-INF/classes/edu/epam/entities/Category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/e-lib-1.0-SNAPSHOT/WEB-INF/classes/edu/epam/entities/Comment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/e-lib-1.0-SNAPSHOT/WEB-INF/classes/edu/epam/entities/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/e-lib-1.0-SNAPSHOT/WEB-INF/classes/edu/epam/entities/Request.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/e-lib-1.0-SNAPSHOT/WEB-INF/classes/edu/epam/entities/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/e-lib-1.0-SNAPSHOT/WEB-INF/classes/edu/epam/entities/UserOpinion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/e-lib-1.0-SNAPSHOT/WEB-INF/classes/edu/epam/util/DataUtility.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/e-lib-1.0-SNAPSHOT/WEB-INF/classes/edu/epam/util/DataValidator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/e-lib-1.0-SNAPSHOT/WEB-INF/classes/edu/epam/util/JDBCDataSource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/e-lib-1.0-SNAPSHOT/WEB-INF/lib/c3p0-0.9.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/e-lib-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/e-lib-1.0-SNAPSHOT/index.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="24TPrj6e0daWBxrmAihO7NCvTpo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\e-lib\src\main\webapp\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\e-lib\src\main\webapp" />
+      <recent name="C:\Users\user\Desktop\e-lib\src\main\webapp\images" />
+      <recent name="C:\Users\user\Desktop\e-lib\src\main\webapp\assets\css" />
+      <recent name="C:\Users\user\Desktop\e-lib\src\main\webapp\assets\js" />
+      <recent name="C:\Users\user\Desktop\e-lib\src\main\webapp\assets\sass" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Unnamed">
+    <configuration name="PropertyReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.epam.util.PropertyReader" />
+      <module name="e-lib" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.epam.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.75" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/e_lib/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="e-lib:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/e_lib" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="cab02082-7250-4ee6-a1e4-02a1563f6dd2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56306" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="e-lib:war" />
+        </option>
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PropertyReader" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="804f12de-1c81-4d24-b59f-03de7e1341eb" name="Changes" comment="" />
+      <created>1643651805182</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643651805182</updated>
+      <workItem from="1643651806047" duration="870000" />
+      <workItem from="1643689688902" duration="749000" />
+      <workItem from="1643792878200" duration="8336000" />
+      <workItem from="1643859993678" duration="21622000" />
+      <workItem from="1643947254692" duration="24957000" />
+      <workItem from="1644206578100" duration="16943000" />
+      <workItem from="1644230547522" duration="11870000" />
+      <workItem from="1644293575160" duration="23032000" />
+      <workItem from="1644377560969" duration="24119000" />
+      <workItem from="1644464999909" duration="13179000" />
+      <workItem from="1644494492937" duration="970000" />
+      <workItem from="1644505243875" duration="12514000" />
+      <workItem from="1644519714274" duration="1553000" />
+      <workItem from="1644521318272" duration="19105000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
